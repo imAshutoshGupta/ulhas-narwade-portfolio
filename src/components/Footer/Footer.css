@@ -1,0 +1,25 @@
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.footer-text a {
+  color: var(--main);
+  font-size: 0.8rem;
+  font-family: var(--font-mono);
+  transition: all 0.25s;
+}
+.footer-text a:hover {
+  color: var(--green);
+}
+
+@media (max-width: 768px) {
+  .footer-links {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+  }
+
+}

@@ -1,0 +1,121 @@
+.blogMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  
+  }
+  
+  .blog-heading {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .blog-heading a {
+    font-family: var(--font-mono);
+  }
+  
+  .blog-container-ul {
+    padding: 0;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .blogEach {
+    margin: 6px;
+    height: 210px;
+    max-width: 250px;
+    background: var(--light-navy);
+    padding: 30px;
+    transition: all 0.25s;
+    border-radius: 5px;
+    overflow: auto;
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    transition: var(--transition);
+  }
+  
+  .blogEach:hover {
+    margin-top: -2px;
+    color: var(--green);
+  }
+  
+  .blogEach-list-link {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .folder-logo svg {
+    stroke: var(--green);
+    width: 40px;
+    height: 40px;
+  }
+  
+  .folder-links svg {
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+  }
+  .folder-links svg:hover {
+    stroke: var(--green);
+  }
+  .folder-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .blogEach-list-title {
+    padding-top: 30px;
+  }
+  
+  .blogEach-list-title a {
+    font-size: 1.1rem;
+    color: var(--lightest-slate);
+  }
+  
+  .blogEach-list-title a:hover {
+    color: var(--green);
+  }
+  .blogEach-list-title a:hover {
+    color: var(--green);
+  }
+  
+  .blogEach-list-des {
+    padding-top: 15px;
+    color: var(--main);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .blogEach-footer {
+    padding: 0;
+    padding-top: 10px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--main);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+  }
+  .otherbtn {
+    margin: 30px 0 100px 0;
+  }
+  
+  /* ----------------Media Queries--------------- */
+  
+  @media (max-width: 768px) {
+    .blogMain {
+      margin-top: 100px;
+    }
+  
+    .blogEach {
+      
+      max-width: 300px;
+    }
+  }
+  
