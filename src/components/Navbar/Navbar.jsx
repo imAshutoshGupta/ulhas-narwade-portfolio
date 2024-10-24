@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import "./Navbar.css";
-// import Resume from "../../assets/pdf/resume.pdf";
+import Resume from "../../assets/pdf/Ulhas-Narwade_9403666037.pdf";
 import { useScroll } from "./UseScroll";
 import { Bounce, Fade } from "react-awesome-reveal";
 const Navbar = () => {
@@ -71,7 +71,7 @@ const Navbar = () => {
                   className="button"
                   target="_blank"
                   download
-                  // to={Resume}
+                  to={Resume}
                 >
                   Resume
                 </Link>
