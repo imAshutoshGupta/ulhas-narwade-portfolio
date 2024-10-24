@@ -2,7 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
+  padding: 20px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 .footer-text a {
   color: var(--main);
@@ -17,7 +19,6 @@
 @media (max-width: 768px) {
   .footer-links {
     display: flex;
-    
     justify-content: center;
     align-items: center;
   }

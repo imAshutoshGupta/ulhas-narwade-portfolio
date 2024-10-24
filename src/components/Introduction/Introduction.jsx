@@ -44,11 +44,11 @@ const Introduction = () => {
               idx={15}
             />
           </h1> */}
-          <span
+          <h1
             className="intro-main">
             {typeEffect}
             <Cursor />
-          </span>
+          </h1>
           <h3 className="intro-sub">
             I'm a <Link>Software Engineer, Mentor, & Professional</Link> based in Bengaluru, Karnataka - currently working at Itvedant Education Pvt. Ltd. As a <Link>Senior Trainer</Link>, I specialize in mentoring and applying cutting-edge cloud technologies on the <Link>Amazon Web Services (AWS)☁️</Link> platform with <Link>DevOps</Link> tools.
           </h3>
