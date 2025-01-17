@@ -10,7 +10,7 @@ const Introduction = () => {
   const [letterClass, setLetterClass] = useState("text-animate-fast");
 
   const [typeEffect] = useTypewriter({
-    words: ["Cloud Messenger", "2X AWS Certified", "Software Engineer", "Mentor & Professional", "Training Specialist"],
+    words: ["Cloud Messenger", "3X AWS Certified", "Software Engineer", "Mentor & Professional", "Training Specialist"],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 50,
